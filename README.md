@@ -1,6 +1,7 @@
 # GFE-Raffaello-Laser-Engraver
 This repo contains all the files of my Arduino Nano based Laser Engraver firmware for Arduino.
 
+* Author: Giacomo Mammarella
 * email: giacomo.mammarella@student.univaq.it
 
 # File list:

@@ -5,9 +5,15 @@ This repo contains all the files of my Arduino Nano based Laser Engraver firmwar
 * email: giacomo.mammarella@student.univaq.it
 
 # File list:
-* grbl09j_GFE.hex: is the hex file precompiled for my Arduino Nano controller Board.
-* Laser engraver V2.sch: The Cadsoft Eagle 6.5 schematic file for the board.
-* Laser engraver V2.brd: The Cadsoft Eagle 6.5 board file.
+* [grbl09j_GFE.hex](https://github.com/giacu92/GFE-Raffaello-Laser-Engraver/blob/master/grbl09j_GFE.hex): is the hex file precompiled for my Arduino Nano controller Board.
+* [Laser engraver V2.sch](https://github.com/giacu92/GFE-Raffaello-Laser-Engraver/blob/master/Laser%20engraver%20V2.sch): The Cadsoft Eagle 6.5 schematic file for the board.
+* [Laser engraver V2.brd](https://github.com/giacu92/GFE-Raffaello-Laser-Engraver/blob/master/Laser%20engraver%20V2.brd): The Cadsoft Eagle 6.5 board file.
+* Nano grbl.png: useful for connections
+
+# .hex file characteristics: grbl09j_GFE.hex 
+* Changed defaults for the GFE Raffaello Laser Engraver to match motor and machine parameters
+* Changed homing cycle: $H now ignores the z-axis and perform homing cycle for 2 axis machines
+* Mapped PWM Spindle control (pin: D11) on the range from 0 (1/255, Laser still ON!) to 12.000 (DC). The value 12.000 was chosen to match bCNC parameter for spindle max speed. 
 
 # Realize the board, BOM:
 To realize the board you'll need the following parts. And the links to buy 'em:

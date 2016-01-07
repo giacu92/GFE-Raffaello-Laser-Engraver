@@ -19,4 +19,5 @@ To realize the board you'll need the following parts. And the links to buy 'em:
 * 3mm red led, 1N4001 diode and a 4,7k resistor for the led.
 
 # Connections:
-![alt tag](https://github.com/giacu92/GFE-Raffaello-Laser-Engraver/blob/master/Nano%20grbl.png)
+![Arduino Nano](https://github.com/giacu92/GFE-Raffaello-Laser-Engraver/blob/master/Nano%20grbl.png)
+![Board](http://i65.tinypic.com/30ws0wm.png)
